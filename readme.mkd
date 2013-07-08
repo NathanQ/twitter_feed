@@ -1,0 +1,10 @@
+# Twitter Feed
+
+The Twitter Feed is another way to pull Twitter data to create a json file on your website. Twitter Feed was made in response to Twitter's retirement of API v1 which worked great to pull in a user's timeline.
+
+The Twitter Feed app uses [Django], [Python Memcached], [Tweepy], and Twitter's OAuth Tool Settings ([Twitter App] required) to access Twitter. The app caches the results so Twitter's rate limitations should not be a problem.
+
+[Django]: https://www.djangoproject.com
+[Python Memcached]: https://pypi.python.org/pypi/python-memcached/
+[Tweepy]: https://github.com/tweepy/tweepy
+[Twitter App]: https://dev.twitter.com/apps
